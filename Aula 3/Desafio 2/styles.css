@@ -1,0 +1,83 @@
+body{
+
+    background-color: gainsboro;
+}
+
+.container{
+    max-width: 50rem;
+    height: 150vh;
+    background-color: white;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.banner{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.fixo {
+    position: static;
+    height: 2rem;
+    top: 0;
+    background-color: cyan;
+    z-index: 2;
+}
+
+.sticky {
+    position: sticky;
+    height: 4rem;
+    top: 0;
+    background-color:darkblue;
+    z-index: 3;
+}
+
+.painel {
+    position:absolute;
+    height: 22rem;
+    top: 7rem;
+}   
+
+.direito {
+    width: 12rem;
+    background-color:#00565f;
+    left: 0;
+    border-radius: 0 10px 10px 0;
+}
+
+.esquerdo {
+    background-color: #880ED4;
+    border-radius: 10px 0 0 10px;
+    left: 12.5rem;
+    right: 0; 
+
+}
+
+.rodape {
+    position: absolute;
+    background-color: #2596be;
+    top: 30rem;
+    width: 100%;
+    height: 15rem;
+}
+
+.botao {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 80px;
+    left:50%;
+    margin-left: -40px;
+    margin-bottom: -20px;
+    background-color: #282828;
+    border-radius: 30px;
+    z-index: 1;
+}
+
+.botao:hover {
+    background-color: gray;
+}
